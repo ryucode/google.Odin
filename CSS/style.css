@@ -1,0 +1,22 @@
+*,
+h1,
+ol,
+ul,
+li
+{
+ margin:0;
+ padding:0;
+ text-decoration: none;
+ text-size-adjust: 14px;
+}
+button {
+ border:none;
+ background:none;
+}
+body {
+ background:#fff
+}
+
+.wraper2 a {
+    float: right;
+}
