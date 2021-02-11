@@ -1,4 +1,4 @@
-*,
+ *,
 h1,
 ol,
 ul,
@@ -6,17 +6,58 @@ li
 {
  margin:0;
  padding:0;
- text-decoration: none;
- text-size-adjust: 14px;
 }
 button {
+
  border:none;
  background:none;
 }
+
+
 body {
  background:#fff
 }
 
-.wraper2 a {
-    float: right;
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+
+}
+
+ a {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+    
+
+}
+
+.wraper a {
+   text-decoration: none;
+    
+}
+
+a.wraper first-of-type {
+    margin-left: 15px;
+}
+
+
+.picture {
+    margin-top: auto;
+    height: 100%;
+    text-align: center;
+     display: block;
+     
+
+}
+
+.nXdpd {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
 }
