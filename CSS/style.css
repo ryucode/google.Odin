@@ -2,10 +2,12 @@
 h1,
 ol,
 ul,
-li
+li,
+div
 {
  margin:0;
  padding:0;
+ text-decoration: none
 }
 button {
 
@@ -35,10 +37,10 @@ body {
 
 }
 
-.wraper a {
+/* .wraper a {
    text-decoration: none;
     
-}
+} */
 
 a.wraper first-of-type {
     margin-left: 15px;
@@ -53,6 +55,12 @@ a.wraper first-of-type {
      
 
 }
+
+
+.Icon {
+    margin: 250px;
+}
+
 
 .nXdpd {
     max-height: 100%;
