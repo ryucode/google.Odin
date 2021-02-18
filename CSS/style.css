@@ -37,6 +37,14 @@ body {
 
 }
 
+.Right {
+    float: right;
+  
+    
+}
+
+
+
 /* .wraper a {
    text-decoration: none;
     
@@ -68,4 +76,14 @@ a.wraper first-of-type {
     object-fit: contain;
     object-position: center bottom;
     width: auto;
+}
+
+.footer1 {
+        font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    background: #f2f2f2;
+    position:fixed;
+    bottom:0;
+    width: 100%;
 }
