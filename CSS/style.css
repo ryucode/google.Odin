@@ -17,7 +17,8 @@ button {
 
 
 body {
- background:#fff
+ background:#fff;
+ font-family: arial,sans-serif;
 }
 
 .main {
@@ -63,6 +64,74 @@ a.wraper first-of-type {
      
 
 }
+
+
+/* Search Box Settings */
+
+/* .searchBox {
+    width: 50%;
+    margin: 0 auto;
+    height: 50%;
+    background: black;
+}
+ */
+
+.text_input input[type="text"] {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin:0 auto;
+    width: 500px;
+    height: 35px;
+    border-radius: 25px;
+    border: 3px grey solid;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.text_input input:focus {
+    background-color: grey;
+  }
+.text_input:hover {
+    background-color: khaki;
+    border-radius: 25px;
+}
+
+
+
+ .search_box input[type="submit"] {
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-style: normal;
+    background-color: yellowgreen;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-130%);
+    margin: 75px 0;
+    padding:10px 10px;
+    border-radius: 5px;
+}
+
+.lucky input[type="submit"]{
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-style: normal;
+    background-color: rgba(223, 225, 229, 0);
+    position: absolute;
+    left: 50%;
+    transform: translateX(20%);
+    margin: 75px 0;
+    padding: 10px 10px;
+    border-radius: 5px;
+    
+}
+
 
 
 .Icon {
